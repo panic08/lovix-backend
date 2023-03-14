@@ -15,7 +15,7 @@ import javax.annotation.security.RolesAllowed;
 public class TestController {
   @GetMapping("/all")
   public String allAccess() {
-    return "Public Content.";
+    return "Test Content.";
   }
   //ADD ROLES IN  SQL
   @GetMapping("/user")
